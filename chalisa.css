@@ -1,0 +1,10 @@
+#one{
+    color:orangered;
+    background-color: rgb(255, 247, 0);
+    text-decoration: underline;
+    border: 2px solid orange;
+}
+img{
+    border:5px  orangered;
+    border-style:double;
+}

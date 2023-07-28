@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="" method="">
+        <h1 align="center">Payment form</h1>
+        <h2>Contact information</h2>
+        <p>Name: <input type="text" name="name" required></p>
+        <Fieldset>
+        <legend><h3>Gender</h3></legend>
+        <p>
+            <input type="radio" name="gender" id="male" required> Male<br>
+            <input type="radio" name="gender" id="female" required> Female<br>
+            <input type="radio" name="gender" id="other" required> Other
+        </p>
+    </Fieldset>
+    <p>Address: <textarea name="Address" id="Address" cols="50" rows="10"></textarea>
+    </p>
+    <p>Email: <input type="email" name="email" id="email"></p>
+    <p>Pincode: <input type="number" name="Pincode" id="Pincode"></p>
+    <br>
+    <h2>Payment information</h2>
+    <p>Card type:
+        <select name="card_type" id="card_type" required>
+            <option value="">--Select a Card type--</option>
+            <option value="visa">Visa</option>
+            <option value="mastercard">Mastercard</option>
+            <option value="rupay">Rupay</option>
+            <option value="debit">Debit Card</option>
+            <option value="credit">Credit Card</option>
+        </select>
+        <p>
+            Card no: <input type="number" name="card_number" id="card_number" required>
+        </p>
+        <p>
+            Card expiry: <input type="date" name="expiry_date" id="expiry_date" required>
+        </p>
+        <p>
+            CVV: <input type="password" name="cvv" id="cvv" required >
+        </p>
+        <input type="submit" value="Pay now">
+        <hr size="5" color="red">
+        <p>new form <b>all input methods</b></p>
+        <p>
+            checkbox: <br><input type="checkbox" name="option" id="yes">yes <br>
+            <input type="checkbox" name="option" id="no">no
+        </p>
+        <p>
+           colour: <input type="color" name="color" id="color">
+        </p>
+        <p>
+           Date: <input type="date" name="dob" id="dob">
+        </p>
+        <p>
+            <input type="datetime" name="date" id="date">
+        </p>
+        <p>
+         date&time:<input type="datetime-local" name="local" id="local">
+        </p>
+        <p>
+           file :<input type="file" name="doc" id="file"> 
+        </p>
+        <p>
+            hidden<input type="hidden" name="lucky">
+        </p>
+        <p>
+            <input type="image" src="Screenshot (5).png" alt="Screenshot">
+        </p>
+        <p>
+        month: <input type="month" name="month" id="month">
+        </p>
+        <p>
+            <input type="range" name="overs" id="overs">
+        </p>
+        <p>
+            <input type="reset" value="reset">
+        </p>
+        <p>
+           search: <input type="search" name="name" id="name">
+        </p>
+        <p>
+            tel no:<input type="tel" name="phone" id="phone">
+        </p>
+        <p>
+           time: <input type="time" name="" id="">
+        </p>
+        <p>
+           url: <input type="url" name="url" id="url"><br>
+           week: <input type="week" name="week_name" id="week">
+        </p>
+  
+
+    </form>
+</body>
+</html>
